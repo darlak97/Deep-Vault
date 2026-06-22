@@ -1,0 +1,23 @@
+{
+  "Type": "LaunchProjectile",
+  "RunTime": 0.25,
+  "Effects": {
+    "WorldSoundEventId": "SFX_Weapon_D_Carabine_Shot",
+    "LocalSoundEventId": "SFX_Weapon_D_Carabine_Shot",
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "Handgun_Shoot",
+    "Particles": [
+      {
+        "SystemId": "Carabine_Shooting",
+        "PositionOffset": {
+          "Z": 0.85,
+          "Y": 0.15
+        },
+        "RotationOffset": {
+          "Pitch": 90
+        }
+      }
+    ]
+  },
+  "ProjectileId": "Carabine_Bullet"
+}

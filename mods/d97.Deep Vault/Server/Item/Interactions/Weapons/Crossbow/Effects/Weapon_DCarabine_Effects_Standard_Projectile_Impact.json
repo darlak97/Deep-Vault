@@ -1,0 +1,7 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "LocalSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death",
+    "WorldSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "TranslationProperties": {
+    "Name": "D_Icon",
+    "Description": ""
+  },
+  "ItemLevel": 15,
+  "Quality": "Common",
+  "MaxStack": 30,
+  "Icon": "Icons/ItemsGenerated/Spawn_B.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/d97's/Panel_256x256.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/d97's/Images/D97.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Ice",
+    "Flags": {},
+    "BlockParticleSetId": "Dust",
+    "ParticleColor": "#a6a6a6",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Wool",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "VariantRotation": "NESW",
+    "HitboxType": "Plane",
+    "Support": {
+      "All": []
+    },
+    "CustomModelScale": 3
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Blackwood"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      0,
+      0,
+      10
+    ],
+    "Translation": [
+      7,
+      -21
+    ]
+  }
+}

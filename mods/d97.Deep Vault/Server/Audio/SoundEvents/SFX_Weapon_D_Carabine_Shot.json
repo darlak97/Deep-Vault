@@ -1,0 +1,19 @@
+{
+  "Layers": [
+    {
+      "RandomSettings": {
+        "MinPitch": -2.544,
+        "MaxPitch": 2.64,
+        "MinVolume": -0.2
+      },
+      "Volume": 3.84,
+      "Files": [
+        "Sounds/d97's/Carabine_Rifle/SFX_Weapon_Shot_A.ogg",
+        "Sounds/d97's/Carabine_Rifle/SFX_Weapon_Shot_B.ogg"
+      ]
+    }
+  ],
+  "Volume": -0.56,
+  "MaxDistance": 35,
+  "StartAttenuationDistance": 12
+}

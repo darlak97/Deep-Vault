@@ -1,0 +1,18 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/d97's/Carabine_Rifle/SFX_Weapon_Reload.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -2.64,
+        "MaxPitch": 2.976,
+        "MinVolume": -0.2
+      },
+      "Volume": 10
+    }
+  ],
+  "Volume": -0.56,
+  "MaxDistance": 15,
+  "StartAttenuationDistance": 4
+}

@@ -1,0 +1,37 @@
+{
+  "TranslationProperties": {
+    "Name": "B2 Access Card",
+    "Description": "A target of Scorpion facility?"
+  },
+  "Icon": "Icons/ItemsGenerated/B2_Access_Card.png",
+  "Quality": "Legendary",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Items/Tools/d97's/B2_Access_Card.blockymodel",
+  "Texture": "Items/Tools/d97's/B2_Access_Card_Texture.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1.5,
+    "Rotation": [
+      19,
+      176,
+      24
+    ],
+    "Translation": [
+      2,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Scale": 1.8,
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": false
+}

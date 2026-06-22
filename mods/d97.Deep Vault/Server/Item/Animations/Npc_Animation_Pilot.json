@@ -1,0 +1,87 @@
+{
+  "Animations": {
+    "Walk": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Staff/Walk_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Staff/Walk.blockyanim",
+      "Looping": true
+    },
+    "WalkBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Staff/Walk_Backward_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Staff/Walk_Backward.blockyanim",
+      "Looping": true
+    },
+    "Jump": {
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Default/Jump.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true,
+      "ThirdPersonMoving": "Characters/Animations/Default/Jump.blockyanim"
+    },
+    "Pilot": {
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/d97's/Pilot_Animation.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": false,
+      "BlendingDuration": 0.200000002980232
+    },
+    "Copilot_Alert": {
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/d97's/Copilot_Animation.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": false,
+      "BlendingDuration": 0.5
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "TargetNodes": [
+        "Head",
+        "RShoulder"
+      ]
+    },
+    "Yaw": {
+      "TargetNodes": [
+        "Belly"
+      ]
+    }
+  },
+  "WiggleWeights": {
+    "Pitch": 1.5,
+    "PitchDeceleration": 0.15,
+    "Roll": 0.1,
+    "RollDeceleration": 0.15,
+    "X": 2,
+    "XDeceleration": 0.15,
+    "Y": 0.1,
+    "YDeceleration": 0.15,
+    "Z": 0.1,
+    "ZDeceleration": 0.15
+  },
+  "PullbackConfig": {
+    "LeftOffsetOverride": [
+      0,
+      0,
+      -1.6
+    ],
+    "LeftRotationOverride": [
+      0,
+      0,
+      0
+    ],
+    "RightOffsetOverride": [
+      0,
+      0,
+      -1.6
+    ],
+    "RightRotationOverride": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Tags": {
+    "Pilot": []
+  }
+}

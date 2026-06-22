@@ -1,0 +1,59 @@
+{
+  "TranslationProperties": {
+    "Name": "T_SWAYLF",
+    "Description": ""
+  },
+  "ItemLevel": 15,
+  "Quality": "Common",
+  "MaxStack": 30,
+  "Icon": "Icons/ItemsGenerated/T_SWAYLF.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/d97's/Panel_256x512.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/d97's/Images/T_SWAYLF.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Ice",
+    "Flags": {},
+    "BlockParticleSetId": "Dust",
+    "ParticleColor": "#993c61",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Wool",
+    "TextureComputedColor": "#740e31",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "VariantRotation": "NESW",
+    "HitboxType": "Plane",
+    "Support": {
+      "All": []
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Blackwood"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      0,
+      0,
+      18
+    ],
+    "Translation": [
+      7,
+      -21
+    ]
+  }
+}

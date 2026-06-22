@@ -1,0 +1,30 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/d97's/SFX_WT_0_Effect.ogg",
+        "Sounds/d97's/SFX_WT_2_Effect.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -2.928,
+        "MaxPitch": 2.64,
+        "MinVolume": -0.2
+      },
+      "Volume": 6.0
+    },
+    {
+      "Files": [
+        "Sounds/d97's/SFX_WT_1_Effect.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -2.928,
+        "MaxPitch": 2.64,
+        "MinVolume": -0.2
+      },
+      "Volume": 1.64
+    }
+  ],
+  "Volume": -0.56,
+  "MaxDistance": 15,
+  "StartAttenuationDistance": 4
+}

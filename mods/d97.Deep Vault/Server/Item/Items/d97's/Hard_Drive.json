@@ -1,0 +1,41 @@
+{
+  "TranslationProperties": {
+    "Name": "The Hard Drive",
+    "Description": "This device contains all the information from two weeks of activity at the Scorpion facility, but what else could it hold?"
+  },
+  "Icon": "Icons/ItemsGenerated/Hard_Drive.png",
+  "Quality": "Legendary",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Items/Tools/d97's/Hard_Drive.blockymodel",
+  "Texture": "Items/Tools/d97's/Hard_Drive_Texture.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1.5,
+    "Rotation": [
+      48,
+      45,
+      11
+    ],
+    "Translation": [
+      -3,
+      -1
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Scale": 1.8,
+  "Light": {
+    "Color": "#445",
+    "Radius": 1
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": false
+}

@@ -1,0 +1,10 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemPlayerAnimationsId": "Npc_Animation_Pilot",
+    "ItemAnimationId": "Copilot_Alert",
+    "ClearAnimationOnFinish": false
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0
+}

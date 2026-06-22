@@ -1,0 +1,10 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemPlayerAnimationsId": "Interaction_Animation",
+    "ItemAnimationId": "Interaction",
+    "ClearAnimationOnFinish": true
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 3.5
+}

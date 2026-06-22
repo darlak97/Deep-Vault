@@ -1,0 +1,22 @@
+{
+  "Type": "DurabilityCondition",
+  "Threshold": 0,
+  "Operator": "GreaterThan",
+  "Next": {
+    "Type": "StatsCondition",
+    "Costs": {
+      "SignatureCharges": 100
+    },
+    "ValueType": "Percent",
+    "Next": {
+      "Type": "Replace",
+      "Var": "Signature_BigArrow_Launch",
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_DCarabine_Signature_BigArrow_Shot"
+        ]
+      }
+    },
+    "Failed": "Weapon_DCarabine_Primary_Overcharge"
+  }
+}

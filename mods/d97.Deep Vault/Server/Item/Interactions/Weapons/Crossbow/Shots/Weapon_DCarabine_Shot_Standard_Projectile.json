@@ -1,0 +1,18 @@
+{
+  "Type": "Projectile",
+  "RunTime": 0.2,
+  "Config": "Projectile_Config_Bullet_DCarabine",
+  "Next": {
+    "Type": "ChangeStat",
+    "StatModifiers": {
+      "Ammo": -1
+    },
+    "Next": {
+      "Type": "ChangeStat",
+      "Behaviour": "Set",
+      "StatModifiers": {
+        "StaminaRegenDelay": 0
+      }
+    }
+  }
+}

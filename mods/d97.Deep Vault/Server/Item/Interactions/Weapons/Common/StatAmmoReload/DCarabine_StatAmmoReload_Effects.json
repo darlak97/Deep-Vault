@@ -1,0 +1,20 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.3,
+  "HorizontalSpeedMultiplier": 0.75,
+  "Effects": {
+    "ItemAnimationId": "ReloadReady",
+    "WorldSoundEventId": "SFX_Weapon_D_Carabine_Reload",
+    "LocalSoundEventId": "SFX_Weapon_D_Carabine_Reload",
+    "ClearAnimationOnFinish": true
+  },
+  "Next": {
+    "Type": "Replace",
+    "Var": "Reload_StatModifier",
+    "DefaultValue": {
+      "Interactions": [
+        "DCarabine_StatAmmoReload_StatModifier"
+      ]
+    }
+  }
+}

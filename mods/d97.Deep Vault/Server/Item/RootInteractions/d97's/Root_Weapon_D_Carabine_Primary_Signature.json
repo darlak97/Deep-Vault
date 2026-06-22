@@ -1,0 +1,14 @@
+{
+  "RequireNewClick": false,
+  "Cooldown": {
+    "Cooldown": 0.001
+  },
+  "Interactions": [
+    "Weapon_DCarabine_Primary_Signature"
+  ],
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  }
+}

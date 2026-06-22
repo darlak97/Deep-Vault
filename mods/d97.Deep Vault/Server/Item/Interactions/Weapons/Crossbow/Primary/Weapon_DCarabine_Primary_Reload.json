@@ -1,0 +1,41 @@
+{
+  "Type": "DurabilityCondition",
+  "Threshold": 0,
+  "Operator": "GreaterThan",
+  "Next": {
+    "Type": "StatsCondition",
+    "Costs": {
+      "Ammo": 1
+    },
+    "Failed": {
+      "Type": "Replace",
+      "Var": "Reload_Start",
+      "DefaultValue": "Root_DCarabine_StatAmmoReload_Entry"
+    },
+    "Next": {
+      "Effects": {
+        "LocalSoundEventId": "SFX_Weapon_D_Carabine_Shot",
+        "WorldSoundEventId": "SFX_Weapon_D_Carabine_Shot",
+        "Particles": [
+          {
+            "SystemId": "Carabine_Shooting",
+            "PositionOffset": {
+              "Z": 0.85,
+              "Y": 0.15
+            },
+            "RotationOffset": {
+              "Pitch": 90
+            }
+          }
+        ]
+      },
+      "Type": "Replace",
+      "Var": "Standard_Projectile_Launch",
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_DCarabine_Shot_Standard_Projectile"
+        ]
+      }
+    }
+  }
+}

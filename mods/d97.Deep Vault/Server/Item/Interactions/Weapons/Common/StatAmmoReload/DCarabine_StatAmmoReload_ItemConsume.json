@@ -1,0 +1,17 @@
+{
+  "Type": "ModifyInventory",
+  "RequiredGameMode": "Adventure",
+  "ItemToRemove": {
+    "Id": "Weapon_Bomb",
+    "Quantity": 1
+  },
+  "Next": {
+    "Type": "Replace",
+    "Var": "Reload_Effects",
+    "DefaultValue": {
+      "Interactions": [
+        "DCarabine_StatAmmoReload_Effects"
+      ]
+    }
+  }
+}

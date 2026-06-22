@@ -1,0 +1,19 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/d97's/SFX_WT_Defeat_Effect.ogg",
+        "Sounds/d97's/SFX_WT_Victory_Effect.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": 0,
+        "MaxPitch": 0,
+        "MinVolume": 0
+      },
+      "Volume": -5.4
+    }
+  ],
+  "Volume": -0.56,
+  "MaxDistance": 15,
+  "StartAttenuationDistance": 4
+}

@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "Transparent_Glass",
+    "Description": ""
+  },
+  "ItemLevel": 15,
+  "Quality": "Common",
+  "MaxStack": 30,
+  "Icon": "Icons/ItemsGenerated/Transparent_Glass.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/d97's/Block_Model.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Transparent_Glass.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Ice",
+    "Flags": {},
+    "BlockParticleSetId": "Dust",
+    "ParticleColor": "#d7d7d7",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Wool",
+    "TextureComputedColor": "#818181",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Blackwood"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      15,
+      16,
+      3
+    ],
+    "Translation": [
+      -2,
+      -15
+    ]
+  }
+}

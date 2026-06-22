@@ -1,0 +1,46 @@
+{
+  "Type": "DurabilityCondition",
+  "Threshold": 0,
+  "Operator": "GreaterThan",
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 2.8,
+    "Effects": {
+      "ItemAnimationId": "Reload",
+      "WorldSoundEventId": "SFX_Weapon_D_Carabine_Reload",
+      "LocalSoundEventId": "SFX_Weapon_D_Carabine_Reload",
+      "ClearAnimationOnFinish": true
+    },
+    "Next": {
+      "Type": "Repeat",
+      "Repeat": -1,
+      "Rules": {
+        "InterruptedBy": [
+          "Primary",
+          "Secondary"
+        ]
+      },
+      "ForkInteractions": {
+        "Interactions": [
+          {
+            "Type": "StatsCondition",
+            "LessThan": true,
+            "Costs": {
+              "Ammo": 100
+            },
+            "ValueType": "Percent",
+            "Next": {
+              "Type": "Replace",
+              "Var": "Reload_ItemConsume",
+              "DefaultValue": {
+                "Interactions": [
+                  "DCarabine_StatAmmoReload_ItemConsume"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

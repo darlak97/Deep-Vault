@@ -1,0 +1,18 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/d97's/Helicopter/SFX_Heli_Door_Effect.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -1.008,
+        "MaxPitch": 1.056,
+        "MinVolume": -0.2
+      },
+      "Volume": 10
+    }
+  ],
+  "Volume": -0.56,
+  "MaxDistance": 15,
+  "StartAttenuationDistance": 4
+}

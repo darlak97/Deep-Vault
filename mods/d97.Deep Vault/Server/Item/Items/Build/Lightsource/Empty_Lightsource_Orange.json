@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Build_Lightsource_Orange.name"
+  },
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Build_Lightsource_Orange.png",
+  "Categories": [
+    "Tool.TechnicalBlocks"
+  ],
+  "SubCategory": "LightSources",
+  "PlayerAnimationsId": "Block",
+  "Set": "Build",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Group": "Dev",
+    "HitboxType": "No_HitBox",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Crystal",
+    "ParticleColor": "#ff8844",
+    "BlockSoundSetId": "Crystal",
+    "PhysicalMaterialId": "Stone",
+    "CubeShadingMode": "Flat",
+    "VariantRotation": "Pipe",
+    "Light": {
+      "Color": "#a72",
+      "Radius": 6
+    },
+    "TextureComputedColor": "#F8663E",
+    "Support": {
+      "All": []
+    },
+    "CustomModel": "Blocks/Miscellaneous/Map.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Empty.png"
+      }
+    ],
+    "Tint": [
+      "#dd8307"
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Build"
+    ]
+  },
+  "Quality": "Technical",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

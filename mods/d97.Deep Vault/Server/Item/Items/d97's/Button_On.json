@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Name": "Button On"
+  },
+  "Icon": "Icons/ItemsGenerated/Button.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Set": "Bones",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Blocks/d97's/Button_On.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/d97's/Button_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "DoublePipe",
+    "Material": "Solid",
+    "BlockSoundSetId": "Metal",
+    "PhysicalMaterialId": "Stone",
+    "HitboxType": "Button",
+    "Opacity": "Transparent",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "DropList": "Empty"
+      }
+    },
+    "BlockParticleSetId": "Dust",
+    "MaxSupportDistance": 4,
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#693c3d",
+    "TextureComputedColor": "#980e0e",
+    "Light": {
+      "Color": "#b33",
+      "Radius": 6
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Bone"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Bones",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -7
+    ]
+  }
+}

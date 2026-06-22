@@ -1,0 +1,81 @@
+{
+  "Animations": {
+    "Walk": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Staff/Walk_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Staff/Walk.blockyanim",
+      "Looping": true
+    },
+    "WalkBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Staff/Walk_Backward_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Staff/Walk_Backward.blockyanim",
+      "Looping": true
+    },
+    "Jump": {
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Default/Jump.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true,
+      "ThirdPersonMoving": "Characters/Animations/Default/Jump.blockyanim"
+    },
+    "Interaction": {
+      "Speed": 0.85,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Interact.blockyanim",
+      "Looping": true,
+      "KeepPreviousFirstPersonAnimation": true,
+      "BlendingDuration": 0.4,
+      "FirstPerson": "Characters/Animations/d97's/Interaction_FPS.blockyanim"
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "TargetNodes": [
+        "Head",
+        "RShoulder"
+      ]
+    },
+    "Yaw": {
+      "TargetNodes": [
+        "Belly"
+      ]
+    }
+  },
+  "WiggleWeights": {
+    "Pitch": 1.5,
+    "PitchDeceleration": 0.15,
+    "Roll": 0.1,
+    "RollDeceleration": 0.15,
+    "X": 2,
+    "XDeceleration": 0.15,
+    "Y": 0.1,
+    "YDeceleration": 0.15,
+    "Z": 0.1,
+    "ZDeceleration": 0.15
+  },
+  "PullbackConfig": {
+    "LeftOffsetOverride": [
+      0,
+      0,
+      -1.6
+    ],
+    "LeftRotationOverride": [
+      0,
+      0,
+      0
+    ],
+    "RightOffsetOverride": [
+      0,
+      0,
+      -1.6
+    ],
+    "RightRotationOverride": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Tags": {
+    "Interaction": []
+  }
+}
