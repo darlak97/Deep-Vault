@@ -1,0 +1,66 @@
+{
+  "Version": 4,
+  "UUID": {
+    "$binary": "auVc29cMRp21vfwIm2Xqyg==",
+    "$type": "04"
+  },
+  "DisplayName": "Modjam - Deep Vaultiiii",
+  "Seed": 1781566656754,
+  "SpawnProvider": {
+    "Id": "Global",
+    "SpawnPoint": {
+      "X": 0.5,
+      "Y": 54.0,
+      "Z": 0.5,
+      "Pitch": 0.0,
+      "Yaw": 180.0,
+      "Roll": 0.0
+    }
+  },
+  "WorldGen": {
+    "Type": "HytaleGenerator",
+    "WorldStructure": "Default_Flat"
+  },
+  "WorldMap": {
+    "Type": "WorldGen"
+  },
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "ChunkConfig": {},
+  "IsTicking": true,
+  "IsBlockTicking": true,
+  "IsPvpEnabled": false,
+  "IsFallDamageEnabled": false,
+  "IsGameTimePaused": true,
+  "GameTime": "0001-01-01T12:00:00Z",
+  "ForcedWeather": "Cave_Fog",
+  "ClientEffects": {
+    "SunHeightPercent": 100.0,
+    "SunAngleDegrees": 0.0,
+    "BloomIntensity": 0.30000001192092896,
+    "BloomPower": 8.0,
+    "SunIntensity": 0.25,
+    "SunshaftIntensity": 0.30000001192092896,
+    "SunshaftScaleFactor": 4.0
+  },
+  "RequiredPlugins": {},
+  "GameMode": "Creative",
+  "IsSpawningNPC": false,
+  "IsSpawnMarkersEnabled": true,
+  "IsAllNPCFrozen": false,
+  "GameplayConfig": "Default",
+  "IsCompassUpdating": true,
+  "IsSavingPlayers": true,
+  "IsSavingChunks": true,
+  "SaveNewChunks": true,
+  "IsUnloadingChunks": true,
+  "IsObjectiveMarkersEnabled": true,
+  "DeleteOnUniverseStart": false,
+  "DeleteOnRemove": false,
+  "DisabledFluidTickers": [],
+  "ResourceStorage": {
+    "Type": "Hytale"
+  },
+  "Plugin": {}
+}
