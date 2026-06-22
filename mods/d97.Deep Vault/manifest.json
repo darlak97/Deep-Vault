@@ -1,0 +1,21 @@
+{
+  "Group": "d97",
+  "Name": "Deep Vault",
+  "Version": "1.0.0",
+  "Description": "A military operation built entirely around the use of Trigger Volumes.",
+  "Authors": [
+    {
+      "Name": "darlak97",
+      "Email": "darlak97games@gmail.com",
+      "Url": "https://x.com/darlak97"
+    }
+  ],
+  "Website": "https://x.com/darlak97",
+  "ServerVersion": ">=0.5.4 <0.6.0",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
