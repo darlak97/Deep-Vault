@@ -1,0 +1,55 @@
+{
+  "LaunchForce": 40,
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 6,
+    "TerminalVelocityAir": 22,
+    "TerminalVelocityWater": 15,
+    "RotationMode": "VelocityDamped",
+    "Bounciness": 0.0,
+    "SticksVertically": true
+  },
+  "Interactions": {
+    "ProjectileHit": {
+      "Interactions": [
+        "Weapon_DCarabine_Primary_Combo_Condition",
+        {
+          "Type": "Replace",
+          "Var": "Standard_Projectile_Impact",
+          "DefaultValue": {
+            "Interactions": [
+              "Weapon_DCarabine_Effects_Standard_Projectile_Impact"
+            ]
+          }
+        },
+        "Common_Projectile_Despawn"
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        "Block_Break_Adventure",
+        {
+          "Type": "Replace",
+          "Var": "Standard_Projectile_Miss",
+          "DefaultValue": {
+            "Interactions": [
+              "Common_Projectile_Miss"
+            ]
+          }
+        },
+        "Common_Projectile_Despawn"
+      ]
+    }
+  },
+  "Model": "Bullet_Blunderbuss",
+  "SpawnOffset": {
+    "X": 0.4,
+    "Y": -0.3,
+    "Z": 0
+  },
+  "SpawnRotationOffset": {
+    "Pitch": 2,
+    "Yaw": 0.25,
+    "Roll": 0
+  }
+}
